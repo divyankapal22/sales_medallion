@@ -30,3 +30,5 @@ spark.sql(f"DROP TABLE IF EXISTS {active_catalog}.bronze.sales_raw")
 
 dbutils.fs.rm(f"/Volumes/{active_catalog}/bronze/checkpoints/sales_autoloader", recurse=True)
 print(f"✅ Clean slate ready in [{active_catalog.upper()}]")
+
+#verifying prod

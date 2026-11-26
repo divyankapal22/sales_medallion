@@ -41,3 +41,4 @@ targets:
       service_principal_name: ${var.sp_application_id}
     variables:
       catalog: prod
+      
